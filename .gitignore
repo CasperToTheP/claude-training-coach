@@ -1,0 +1,36 @@
+# Personal / health data
+.claude/memory/*
+!.claude/memory/.gitkeep
+athlete_plan/*
+!athlete_plan/.gitkeep
+training-log/*
+!training-log/.gitkeep
+coaching-log/*
+!coaching-log/.gitkeep
+strength-log/*
+!strength-log/.gitkeep
+dashboard.html
+multisport-dashboard.html
+training-plan.md
+
+# Upstream repos are reproducible via setup scripts
+vendor/*
+!vendor/.gitkeep
+
+# Generated source/version files
+UPSTREAM-VERSIONS.txt
+THIRD_PARTY_LICENSES/*.txt
+
+# Credentials / local config
+.env
+.env.*
+*.token
+*.secret
+.claude/settings.local.json
+.mcp.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
