@@ -17,9 +17,6 @@ training-plan.md
 vendor/*
 !vendor/.gitkeep
 
-# Generated source/version files
-UPSTREAM-VERSIONS.txt
-THIRD_PARTY_LICENSES/*.txt
 
 # Credentials / local config
 .env
